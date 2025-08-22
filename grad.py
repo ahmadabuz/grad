@@ -8,7 +8,6 @@
 # - Charts use matplotlib only (no seaborn), one chart per figure (per platform rules).
 # - Free WeatherAPI plans typically allow recent history (e.g., last 7 days). Adjust history_days accordingly.
 
-pip install matplotlib
 import os
 import time
 from datetime import datetime, timedelta, date
@@ -413,4 +412,5 @@ if run_btn:
 
 else:
     st.info("Fill the sidebar, then click **Run Forecast**.")
+
 
